@@ -5,19 +5,46 @@
 #Title {
     text-align: center;
     margin-bottom: 100px;
-    font-size: 32px;
+    font-size: 38px;
 }
 
-#ContentPic, #Ingredients{
-    width: 490px;
-    height: 700px;
-    margin-left: 200px;
+#Main {
+    display: flex;
+    margin-left: 25px;
+}
+
+#IngredientsBox {
+    display: flex;
+    margin-bottom: 50px;
     border: 5px solid black;
     padding: 5px;
 }
 
+#ContentPic, #Ingredients{
+    width: 420px;
+    height: 600px;
+    padding: 5px;
+}
+
 #Ingredients {
-    border: none;
-    text-align: center;
+    width: 350px;
+    margin-left: 25px;
+    text-align: left;
     font-size: 22px;
+    line-height: 1.75;
+}
+
+#Ingredients a {
+    text-decoration: none;
+}
+
+#Instructions {
+    text-align: left;
+    font-size: 22px;
+    margin-left: 75px;
+    line-height: 1.35;
+}
+
+#Instructions li {
+    padding-bottom: 20px;
 }
